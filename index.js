@@ -45,8 +45,8 @@ client.on("ready", () => {
 });
 
 client.on("message", msg => {
-  if (msg.content === "سلاو رێکلام ") {
-    msg.reply("**تکایە راوەستە تاکوو وڵام دەدرێیتەوە kissing_cat: ");
+  if (msg.content === "Reklam") {
+    msg.reply("Reklam bomn freka");
   }
 }); 
 
@@ -58,10 +58,11 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(`  https://discord.gg/kq4KWJnBaw`) ///Link Server Never ///RaWeN
+  message.author.send(`  https://discord.gg/JPG8RaQ6Dv`) ///Link Server Never ///RaWeN
     
-  client.channels.get("ID Channel").send(
-`> RaWeN Up | By: <@${message.author.id}> 
+  client.channels.get("919272446643802232").send(
+`> Developer RAYAN 
+| By: <@${message.author.id}> 
 ${message.content}`)
 }
     }
@@ -73,7 +74,7 @@ ${message.content}`)
 client.on('ready', () => {
 console.log(`ON ${client.guilds.size} Servers`);
 console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Send Me Linke Your Server | RaWeN Up`) 
+client.user.setGame(`Send Me Linke Your Server | RAYAN Up`) 
 });
 
 
