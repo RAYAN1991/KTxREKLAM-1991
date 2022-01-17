@@ -8,7 +8,7 @@ if (!message.guild) return;
 
 if (message.content === 'setup') { 
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
-if (message.member.voiceChannel) { 
+if (message.member.voiceChannel) { ("&wara vc") 
 
 message.member.voiceChannel.join() 
 
@@ -21,7 +21,7 @@ message.member.voiceChannel.join()
 
 } else { 
 
-message.reply('**Please you go to the voice🐱**'); 
+message.reply('**Wara vc Ganaral vc 🐱**'); 
 
 } 
 
@@ -80,4 +80,4 @@ client.user.setGame(`Send Me Linke Your Server | RAYAN Up`)
 
 
 
-client.login("");///FiiX ///Token
+client.login("OTMyNTY5MDk0MTIzODQzNjQ0.YeU4pg.F4qtogHvg7c_vDtYM1lsMTflU-s");///FiiX ///Token
